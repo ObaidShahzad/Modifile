@@ -5,16 +5,28 @@ A tool to search and list recent modified files
 
 # Requirements
 + Python 3.x
-+ Bash
++ Linux Shell
 
 # Usage
 
+
+### Linux Shell
  ./modifile.sh [DIRECTORY] [DAYS]
-
-### Example:
-
- ./modifile.sh /home/ 2
+#### Example:
+```sh
+ ./modifile.sh /home/ 2 
+``` 
  
+### Python 3
+ ```sh
+ python3 modifile.py [DIRECTORY] [DAYS]
+```
+#### Example:
+ python3 modifile.py /home/ 2
+
+---
+## Website
++ http://obaid.ml
 ---
 ## Contact
 + ObaidShahzad1@gmail.com
