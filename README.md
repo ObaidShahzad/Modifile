@@ -9,20 +9,23 @@ A tool to search and list recent modified files
 
 # Usage
 
-
 ### Linux Shell
+```sh
  ./modifile.sh [DIRECTORY] [DAYS]
+``` 
 #### Example:
 ```sh
- ./modifile.sh /home/ 2 
+./modifile.sh /home/ 2 
 ``` 
  
 ### Python 3
  ```sh
- python3 modifile.py [DIRECTORY] [DAYS]
+python3 modifile.py [DIRECTORY] [DAYS]
 ```
 #### Example:
- python3 modifile.py /home/ 2
+```sh
+python3 modifile.py /home/ 2
+```
 
 ---
 ## Website
